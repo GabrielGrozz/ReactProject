@@ -3,9 +3,11 @@ import Explain from "./Components/Explain";
 
 function App() {
   return (
+    // passando props
     <div>
       <HelloWorld />
-      <Explain />
+      <Explain nome='Gabriel Luis da Silva Ciusz'/> 
+
     </div>
   );
 }
